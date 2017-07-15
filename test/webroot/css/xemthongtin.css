@@ -1,0 +1,225 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	font-family: 'Lora', cursive;	
+	font-size: 13.8px;
+	line-height: 20px;
+}
+h1{
+	color: #fff;
+	font-size: 35px;
+	line-height: 35px;
+	font-weight: bold;
+	font-family: 'Lora', cursive;
+}
+h2{
+	color: #222222;
+	font-size: 20px;
+	line-height: 35px;
+	font-weight: bold;
+	font-family: 'Lora', cursive;
+}
+h3{
+	color: #FF9900;
+	font-size: 20px;
+	line-height: 35px;
+	font-weight: bold;
+	font-family: 'Lora', cursive;
+}
+h4{
+ 	color: #FFCC00;
+ 	font-family: 'Lora', cursive;
+ 	line-height: 35px;
+}
+hr{
+	border-top: 3px double #006600;
+	
+}
+body{
+	background-color: #f8f8f8;
+}
+/** HEADER ***/
+header {
+	background-color: #047c4b;
+}
+header .top_title{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+header .navbar{
+	background-color: #014b2d;
+	border-radius: 0px;
+	z-index: 1000;
+}
+header .navbar ul li a{
+	
+}
+header .search[type=text] {
+    width: 350px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(../../img/search.jpg);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 10px 50px;
+}
+/*** MAIN **/
+/*** CHU VA HINH SAN PHAM DUOC CHON ****/
+main #thong_tin_chi_tiet{
+	border-top:3px double #006600;
+	height: 100%;
+}
+main .thong_tin_them{
+	color: #33CC66;
+	font-size: 20px;
+}
+main .ten_sp{
+	margin-top: 10px;
+	color: #FF9900;
+	font-size: 21px;
+	font-weight: bold;
+}
+main .thanh_phan p.boil,main .cong_dung p.boil,main .cach_dung p.boil,main .lieu_luong p.boil,main .bao_quan p span{
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+	margin-bottom: 0px;
+}
+main  .chu-img{
+	position: absolute;
+    pointer-events: none;
+    z-index: 1;
+    width: 100%;
+}
+main  .chu-img p{
+	color: #FF3333;
+	font-size: 18px;
+}
+main  .chu-img{
+	top: 270px;
+}
+main .content-chu-img span{
+	font-size: 25px;
+	color: #000;
+}
+main .name_title_sp_moi{
+	color: #fff;
+	font-size: 30px;
+	line-height: 35px;
+	font-weight: bold;
+    background: -webkit-linear-gradient(left, #014b2d, #33CC66); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,#014b2d, #33CC66); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,#014b2d, #33CC66); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #014b2d, #33CC66); /* Standard syntax (must be last) */
+}
+main #border_new_pro .thumbnail {
+	border: 0px;
+	background: -webkit-linear-gradient(left, #014b2d, #33CC66); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right,#014b2d, #33CC66); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right,#014b2d, #33CC66); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #014b2d, #33CC66); /* Standard syntax (must be last) */
+}
+main #border_new_pro .thumbnail p{
+	color: #fff;
+}/*** END CHU VA HINH SAN PHAM DUOC CHON ****/
+/*** MAIN THANH DIEU HUONG *****/
+main #thanh_dieu_huong a{
+	text-decoration: none;
+}
+main #thanh_dieu_huong h2 .mac_dinh{
+	color: #006600;
+}
+main #thanh_dieu_huong h2 .xac_dinh{
+	color: #FF3333;
+}
+/*** Footer ***/
+footer{
+	margin-top: 20px;
+}
+footer p{
+	color: #fff;
+}
+footer #footer_1{
+	height: 200px;
+	background-color: #047c4b;
+	width: 100%;
+}
+footer #footer_1 .about,footer #footer_1 .contact{
+	top:30px;
+	color: #fff;
+}
+footer #footer_1 a{
+	text-decoration: none;
+	font-size: 25px;
+}
+footer #footer_1 .fa-facebook.fa {
+    color: #29487d;
+}
+footer #footer_1 .fa-google.fa {
+    color: #d14836;
+}
+footer #footer_1 .fa-skype.fa {
+    color: #2A5993;
+}
+footer #footer_2{
+	background-color: #014b2d;
+	color: #fff;
+}/***** END FOOOTER ****/
+
+/*** CSS XEM NHIEU SP WEB PAGE DIFERENCE ***/
+main .tuy_chon_xem .thumbnail{
+	margin-top:10px;
+	border: 0;
+	transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+}
+.active_change{
+	color: red;
+}
+main .tuy_chon_xem .thumbnail:hover{
+	box-shadow: 5px 10px 40px #047c4b;
+}
+main .tuy_chon_xem a {
+	text-decoration: none;
+}
+main #thay_doi_xem{
+	float: right;
+}
+main #thay_doi_xem i{
+	margin-top:10px;
+	cursor: pointer;
+	font-size: 30px;
+}
+main .button_extra_product button{
+	width: 30%;
+	font-size: 18px;
+}
+/*** @MEDIA ****/
+
+@media screen and (max-width:860px){
+	header #search{
+		width: 100%;
+	}
+	#large_submit{
+		width: 100%;
+	}
+	main #thay_doi_xem{
+		display: none;
+	}
+	main .thumbnail  {
+		height: 170px;
+	}
+	footer #footer_1,footer #footer_2{
+		height: auto;
+	}
+	footer #footer_1{
+		padding-bottom:30px;
+	}
+}/***END @MEDIA ****/
